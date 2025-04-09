@@ -11,7 +11,6 @@ export const defaultStorage = new DefaultStorage({
   },
 });
 
-
 export const mastra = new Mastra({
   workflows: { weatherWorkflow },
   agents: { weatherAgent },
